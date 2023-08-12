@@ -6,3 +6,5 @@ export type NotiType =
     | "warning"
     | "pullRequest"
     | "danger";
+
+export type FixMeLater = any;

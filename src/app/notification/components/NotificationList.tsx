@@ -1,14 +1,18 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import VirtualList from "rc-virtual-list";
+import React from "react";
 import { Avatar, Checkbox, List, Typography, message } from "antd";
+import VirtualList from "rc-virtual-list";
 
+import { useSWRNotifications } from "@/app/state/swr";
 import type { CheckboxChangeEvent } from "antd/es/checkbox";
-import { useNotificationPageDispatch } from "../state/NotificationPage.context";
 import {
   deselectNotification,
   selectNotification,
 } from "../state/NoticationPage.actions";
+import {
+  useNotificationPageDispatch,
+  useNotificationPageState,
+} from "../state/NotificationPage.context";
 
 interface UserItem {
   email: string;
@@ -28,63 +32,32 @@ interface UserItem {
   isSelected: boolean;
 }
 
-const fakeDataUrl =
-  "https://randomuser.me/api/?results=20&inc=name,gender,email,nat,picture&noinfo";
 const ContainerHeight = 400;
 
 function NotificationList() {
-  const [notificationItems, setNotificationItems] = useState<UserItem[]>([]);
+  const state = useNotificationPageState();
+  const { selectedNotificationIds } = state;
+  const { notifications: notificationItems, loadMore } = useSWRNotifications();
+
   const dispatch = useNotificationPageDispatch();
 
   // this function does not use useCallback in intentional way
   const onChange = (e: CheckboxChangeEvent, item: UserItem) => {
     const newCheckedValued = e.target.checked;
-    const updatedNotificationItems = notificationItems.map(
-      (notificationItem) => {
-        if (notificationItem.id === item.id) {
-          return { ...notificationItem, isSelected: e.target.checked };
-        }
-        return notificationItem;
-      }
-    );
     if (newCheckedValued) {
       selectNotification(dispatch, item.id);
     } else {
       deselectNotification(dispatch, item.id);
     }
-    setNotificationItems(updatedNotificationItems);
   };
 
-  const appendData = () => {
-    fetch(fakeDataUrl)
-      .then((res) => res.json())
-      .then((body) => {
-        console.log("🚀 ~ file: NotificationList.tsx:33 ~ .then ~ body:", body);
-        setNotificationItems(
-          notificationItems.concat(
-            body.results.map((result: any) => {
-              return {
-                ...result,
-                isSelected: false,
-                id: Math.random(),
-              };
-            })
-          )
-        );
-        message.success(`${body.results.length} more items loaded!`);
-      });
-  };
-
-  useEffect(() => {
-    appendData();
-  }, []);
-
-  const onScroll = (e: React.UIEvent<HTMLElement, UIEvent>) => {
+  const onScroll = async (e: React.UIEvent<HTMLElement, UIEvent>) => {
     if (
       e.currentTarget.scrollHeight - e.currentTarget.scrollTop ===
       ContainerHeight
     ) {
-      appendData();
+      await loadMore();
+      message.success(`more items loaded!`);
     }
   };
 
@@ -109,7 +82,7 @@ function NotificationList() {
               description={item.email}
             />
             <Checkbox
-              checked={item.isSelected}
+              checked={selectedNotificationIds.indexOf(item.id) !== -1}
               onChange={(e) => {
                 onChange(e, item);
               }}

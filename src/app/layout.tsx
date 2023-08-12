@@ -1,7 +1,6 @@
 import React from "react";
 import { Inter } from "next/font/google";
-import theme from "@/theme/themeConfig";
-import { ConfigProvider, Layout } from "antd";
+import { ConfigProvider, Layout, theme } from "antd";
 import StyledComponentsRegistry from "../lib/AntdRegistry";
 import "./globals.css";
 import AppHeader from "./components/AppHeader";
@@ -17,7 +16,13 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
   <html lang="en">
     <body className={inter.className}>
       <StyledComponentsRegistry>
-        <ConfigProvider theme={theme}>
+        <ConfigProvider
+          theme={{
+            token: {
+              colorText: "white",
+            },
+          }}
+        >
           <AppHeader />
           {children}
         </ConfigProvider>

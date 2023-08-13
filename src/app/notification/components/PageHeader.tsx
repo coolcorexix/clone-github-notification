@@ -38,7 +38,7 @@ function PageHeader() {
     }
   };
   return (
-    <>
+    <div>
       {mode === "readOnly" && (
         <Space direction="vertical">
           <Space>
@@ -51,7 +51,7 @@ function PageHeader() {
               Select
             </Button>
           </Space>
-          <Space>
+          <Space className="ml-3">
             <Typography.Title level={2}>Inbox</Typography.Title>
           </Space>
         </Space>
@@ -61,6 +61,7 @@ function PageHeader() {
           <Space>
             <Button
               onClick={() => {
+                deselectAllNotifications(dispatch);
                 switchToReadOnlyMode(dispatch);
               }}
               type="text"
@@ -89,7 +90,7 @@ function PageHeader() {
               </Button>
             )}
           </Space>
-          <Space>
+          <Space className="ml-3">
             <Typography.Title level={2}>
               {totalOfSelectedItems
                 ? `${totalOfSelectedItems} selected`
@@ -121,7 +122,7 @@ function PageHeader() {
           )}
         </Space>
       )}
-    </>
+    </div>
   );
 }
 

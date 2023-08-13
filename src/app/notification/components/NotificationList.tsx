@@ -46,7 +46,6 @@ function NotificationList() {
         return;
       }
       await loadMore();
-      message.success(`more items loaded!`);
     }
   };
 
@@ -62,10 +61,6 @@ function NotificationList() {
         onScroll={onScroll}
       >
         {(item: GitHnbNotification) => {
-          console.log(
-            "🚀 ~ file: NotificationList.tsx:65 ~ NotificationList ~ item.id:",
-            item.id
-          );
           return (
             <List.Item>
               <NotificationItem item={item} />

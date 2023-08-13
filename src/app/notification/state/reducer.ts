@@ -1,5 +1,6 @@
 import {
     DESELECT_NOTIFICATION,
+    DE_SELECT_ALL_NOTIFICATIONS,
     SELECT_ALL_NOTIFICATIONS,
     SELECT_NOTIFICATION,
     SWITCH_TO_EDIT_MODE,
@@ -39,9 +40,16 @@ export const reducer = (state: NotificationPageState, action: Action): Notificat
             }
         }
         case SELECT_ALL_NOTIFICATIONS: {
-            throw new Error("Not implemented");
+            const { notificationIds } = action.payload || {};
             return {
                 ...state,
+                selectedNotificationIds: notificationIds,
+            }
+        }
+        case DE_SELECT_ALL_NOTIFICATIONS: {
+            return {
+                ...state,
+                selectedNotificationIds: [],
             }
         }
         default: {

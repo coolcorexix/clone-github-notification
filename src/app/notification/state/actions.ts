@@ -28,8 +28,17 @@ export function deselectNotification(dispatch: Dispatch<Action>, notificationId:
     });
 }
 
-export function selectAllNotifications(dispatch: Dispatch<Action>) {
+export function selectAllNotifications(dispatch: Dispatch<Action>, notificationIds: number[]) {
     dispatch({
-        type: constants.SELECT_ALL_NOTIFICATIONS
+        type: constants.SELECT_ALL_NOTIFICATIONS,
+        payload: { notificationIds }
+    });
+
+
+}
+
+export function deselectAllNotifications(dispatch: Dispatch<Action>) {
+    dispatch({
+        type: constants.DE_SELECT_ALL_NOTIFICATIONS
     });
 }

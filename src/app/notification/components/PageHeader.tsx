@@ -30,6 +30,12 @@ function PageHeader() {
     }
   }, [selectedNotificationIds.length]);
 
+  useEffect(() => {
+    if (!notifications.length) {
+      switchToReadOnlyMode(dispatch);
+    }
+  }, [notifications.length]);
+
   const toggleSelectMode = () => {
     if (bulkSelectMode === "select") {
       setBulkSelectMode("deselect");
@@ -42,14 +48,16 @@ function PageHeader() {
       {mode === "readOnly" && (
         <Space direction="vertical">
           <Space>
-            <Button
-              type="text"
-              onClick={() => {
-                switchToEditMode(dispatch);
-              }}
-            >
-              Select
-            </Button>
+            {notifications.length > 0 && (
+              <Button
+                type="text"
+                onClick={() => {
+                  switchToEditMode(dispatch);
+                }}
+              >
+                Select
+              </Button>
+            )}
           </Space>
           <Space className="ml-3">
             <Typography.Title level={2}>Inbox</Typography.Title>

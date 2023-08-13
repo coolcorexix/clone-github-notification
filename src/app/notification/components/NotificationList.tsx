@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Avatar, Checkbox, List, Typography, message } from "antd";
+import { Avatar, Checkbox, Empty, List, Typography, message } from "antd";
 import VirtualList from "rc-virtual-list";
 
 import { useSWRNotifications } from "@/app/state/swr";
@@ -50,6 +50,10 @@ function NotificationList() {
       await loadMore();
     }
   };
+
+  if (notificationItems.length === 0 && !isLoading) {
+    return <Empty description="It is so quiet here 🦗" />;
+  }
 
   return (
     <List>

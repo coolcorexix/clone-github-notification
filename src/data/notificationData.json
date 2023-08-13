@@ -1,0 +1,2602 @@
+[
+  {
+    "id": 0.98974587167515,
+    "type": "closedIssue",
+    "subTitle": "facebook/react #44",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.04906749439953684,
+    "type": "openIssue",
+    "subTitle": "facebook/react-native #60",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.7099809929537513,
+    "type": "closedIssue",
+    "subTitle": "sindresorhus/awesome #32",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.9353894918131914,
+    "type": "closedIssue",
+    "subTitle": "facebook/react-native #60",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.5411802038466901,
+    "type": "openIssue",
+    "subTitle": "facebook/react #11",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.6745217171794775,
+    "type": "closedIssue",
+    "subTitle": "vuejs/vue #57",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.4628967817543275,
+    "type": "openIssue",
+    "subTitle": "d3/d3 #40",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.8347007469895681,
+    "type": "openIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #48",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.8081374412393548,
+    "type": "openIssue",
+    "subTitle": "tensorflow/tensorflow #13",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.53181558431192,
+    "type": "openIssue",
+    "subTitle": "facebook/react #44",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.7042728864073996,
+    "type": "closedIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #30",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.16516933746975324,
+    "type": "closedIssue",
+    "subTitle": "airbnb/javascript #69",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.16520271446785426,
+    "type": "openIssue",
+    "subTitle": "twbs/bootstrap #98",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.8639931926010189,
+    "type": "openIssue",
+    "subTitle": "getify/You-Dont-Know-JS #54",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.7729419306751831,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #29",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.8410676692807528,
+    "type": "openIssue",
+    "subTitle": "ant-design/ant-design #11",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.27178618833332896,
+    "type": "openIssue",
+    "subTitle": "angular/angular.js #48",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.6591284784002935,
+    "type": "closedIssue",
+    "subTitle": "ant-design/ant-design #60",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.2822072643352183,
+    "type": "openIssue",
+    "subTitle": "angular/angular.js #18",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.6053479817882207,
+    "type": "openIssue",
+    "subTitle": "tensorflow/tensorflow #20",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.4430788375707999,
+    "type": "closedIssue",
+    "subTitle": "ant-design/ant-design #70",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.2920440492314904,
+    "type": "closedIssue",
+    "subTitle": "angular/angular.js #84",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.7231685843765288,
+    "type": "openIssue",
+    "subTitle": "angular/angular.js #83",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.7811304715407615,
+    "type": "openIssue",
+    "subTitle": "vuejs/vue #12",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.379076622191266,
+    "type": "closedIssue",
+    "subTitle": "twbs/bootstrap #94",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.007717677939044737,
+    "type": "openIssue",
+    "subTitle": "sindresorhus/awesome #37",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.7988650262849141,
+    "type": "closedIssue",
+    "subTitle": "ant-design/ant-design #74",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.09229253574036177,
+    "type": "closedIssue",
+    "subTitle": "angular/angular.js #43",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.5195823806779638,
+    "type": "openIssue",
+    "subTitle": "airbnb/javascript #44",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.4523986509099409,
+    "type": "openIssue",
+    "subTitle": "angular/angular.js #42",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.5110020559783279,
+    "type": "closedIssue",
+    "subTitle": "sindresorhus/awesome #42",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.5135426502318842,
+    "type": "openIssue",
+    "subTitle": "facebook/react-native #59",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.7638389664742374,
+    "type": "closedIssue",
+    "subTitle": "getify/You-Dont-Know-JS #24",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.5262278033831432,
+    "type": "closedIssue",
+    "subTitle": "vuejs/vue #65",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.887218997213313,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #70",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.3869132474898697,
+    "type": "closedIssue",
+    "subTitle": "ant-design/ant-design #60",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.7377667434186974,
+    "type": "closedIssue",
+    "subTitle": "d3/d3 #94",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.9111993295039299,
+    "type": "openIssue",
+    "subTitle": "vuejs/vue #58",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.6044905693121928,
+    "type": "closedIssue",
+    "subTitle": "d3/d3 #62",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.8499461323249267,
+    "type": "openIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #39",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.7988508241798599,
+    "type": "openIssue",
+    "subTitle": "sindresorhus/awesome #39",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.38485962932963974,
+    "type": "openIssue",
+    "subTitle": "airbnb/javascript #75",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.17632406393445418,
+    "type": "openIssue",
+    "subTitle": "getify/You-Dont-Know-JS #7",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.16991241389993642,
+    "type": "closedIssue",
+    "subTitle": "getify/You-Dont-Know-JS #23",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.6125450204384123,
+    "type": "closedIssue",
+    "subTitle": "facebook/react-native #94",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.23114476467801898,
+    "type": "openIssue",
+    "subTitle": "vuejs/vue #68",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.12107164136923929,
+    "type": "openIssue",
+    "subTitle": "ant-design/ant-design #22",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.7204444695886622,
+    "type": "openIssue",
+    "subTitle": "sindresorhus/awesome #60",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.4330103934513228,
+    "type": "openIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #29",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.5949779115675329,
+    "type": "closedIssue",
+    "subTitle": "airbnb/javascript #51",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.5379034725279233,
+    "type": "openIssue",
+    "subTitle": "facebook/react #57",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.06262213485074285,
+    "type": "closedIssue",
+    "subTitle": "sindresorhus/awesome #47",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.3463890547784544,
+    "type": "openIssue",
+    "subTitle": "tensorflow/tensorflow #35",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.02512466033404483,
+    "type": "closedIssue",
+    "subTitle": "ant-design/ant-design #33",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.7024139976935583,
+    "type": "closedIssue",
+    "subTitle": "vuejs/vue #50",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.7700502963237744,
+    "type": "closedIssue",
+    "subTitle": "d3/d3 #86",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.45948802082805973,
+    "type": "closedIssue",
+    "subTitle": "getify/You-Dont-Know-JS #2",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.14672763241225048,
+    "type": "openIssue",
+    "subTitle": "tensorflow/tensorflow #75",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.8760229699544754,
+    "type": "openIssue",
+    "subTitle": "airbnb/javascript #60",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.7951576316030936,
+    "type": "openIssue",
+    "subTitle": "angular/angular.js #80",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.829068932953769,
+    "type": "closedIssue",
+    "subTitle": "vuejs/vue #19",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.9662604867828388,
+    "type": "openIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #28",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.8949805001906863,
+    "type": "openIssue",
+    "subTitle": "sindresorhus/awesome #71",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.4119039697130773,
+    "type": "openIssue",
+    "subTitle": "ant-design/ant-design #87",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.9027239406880994,
+    "type": "openIssue",
+    "subTitle": "twbs/bootstrap #78",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.3943642936435534,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #60",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.1868514719861276,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #68",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.8518401486151981,
+    "type": "closedIssue",
+    "subTitle": "angular/angular.js #3",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.5500940644073948,
+    "type": "closedIssue",
+    "subTitle": "angular/angular.js #30",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.22249566408274743,
+    "type": "openIssue",
+    "subTitle": "airbnb/javascript #81",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.7922547857603108,
+    "type": "closedIssue",
+    "subTitle": "getify/You-Dont-Know-JS #88",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.09317800421993243,
+    "type": "closedIssue",
+    "subTitle": "sindresorhus/awesome #89",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.05269197949179477,
+    "type": "openIssue",
+    "subTitle": "sindresorhus/awesome #79",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.07005798738214392,
+    "type": "openIssue",
+    "subTitle": "facebook/react-native #8",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.5605642448986035,
+    "type": "openIssue",
+    "subTitle": "vuejs/vue #71",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.40064334512232047,
+    "type": "closedIssue",
+    "subTitle": "ant-design/ant-design #83",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.3519498308714543,
+    "type": "closedIssue",
+    "subTitle": "sindresorhus/awesome #29",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.7525576707766076,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #47",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.5893978205923306,
+    "type": "closedIssue",
+    "subTitle": "vuejs/vue #46",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.45427606342806626,
+    "type": "closedIssue",
+    "subTitle": "getify/You-Dont-Know-JS #12",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.5283931450171174,
+    "type": "openIssue",
+    "subTitle": "tensorflow/tensorflow #17",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.5502835844180627,
+    "type": "openIssue",
+    "subTitle": "facebook/react-native #8",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.0758559596988954,
+    "type": "openIssue",
+    "subTitle": "twbs/bootstrap #59",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.6256591281054892,
+    "type": "openIssue",
+    "subTitle": "ant-design/ant-design #1",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.8451939225941746,
+    "type": "closedIssue",
+    "subTitle": "vuejs/vue #70",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.516441994017735,
+    "type": "openIssue",
+    "subTitle": "tensorflow/tensorflow #33",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.8564344252131373,
+    "type": "closedIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #8",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.21305111383669909,
+    "type": "closedIssue",
+    "subTitle": "getify/You-Dont-Know-JS #76",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.1602891488659486,
+    "type": "openIssue",
+    "subTitle": "facebook/react #99",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.18360300278132832,
+    "type": "closedIssue",
+    "subTitle": "twbs/bootstrap #72",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.7227321370091397,
+    "type": "closedIssue",
+    "subTitle": "d3/d3 #9",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.09595319424481512,
+    "type": "openIssue",
+    "subTitle": "angular/angular.js #89",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.019831130275611217,
+    "type": "openIssue",
+    "subTitle": "vuejs/vue #81",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.020831079074982405,
+    "type": "openIssue",
+    "subTitle": "tensorflow/tensorflow #36",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.4339470293358239,
+    "type": "closedIssue",
+    "subTitle": "angular/angular.js #8",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.9325707755565494,
+    "type": "openIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #50",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.40634612988021596,
+    "type": "openIssue",
+    "subTitle": "sindresorhus/awesome #46",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.16962454345141423,
+    "type": "openIssue",
+    "subTitle": "airbnb/javascript #73",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.621596039096542,
+    "type": "closedIssue",
+    "subTitle": "vuejs/vue #23",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.8720352632150099,
+    "type": "openIssue",
+    "subTitle": "vuejs/vue #5",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.8607416955776752,
+    "type": "closedIssue",
+    "subTitle": "d3/d3 #20",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.791993960911823,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #89",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.21835928779743924,
+    "type": "closedIssue",
+    "subTitle": "getify/You-Dont-Know-JS #71",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.44670857238098116,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #53",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.528941558279355,
+    "type": "closedIssue",
+    "subTitle": "twbs/bootstrap #89",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.8707929836201971,
+    "type": "openIssue",
+    "subTitle": "airbnb/javascript #45",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.07874022096798947,
+    "type": "openIssue",
+    "subTitle": "airbnb/javascript #12",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.3520169215763539,
+    "type": "openIssue",
+    "subTitle": "vuejs/vue #19",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.6156521306197617,
+    "type": "closedIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #2",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.05697937293666444,
+    "type": "openIssue",
+    "subTitle": "ant-design/ant-design #15",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.5164731652189648,
+    "type": "closedIssue",
+    "subTitle": "twbs/bootstrap #97",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.4264196843377388,
+    "type": "closedIssue",
+    "subTitle": "facebook/react #13",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.5082028957499107,
+    "type": "openIssue",
+    "subTitle": "airbnb/javascript #34",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.444243163191922,
+    "type": "openIssue",
+    "subTitle": "vuejs/vue #65",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.34667214739189006,
+    "type": "closedIssue",
+    "subTitle": "getify/You-Dont-Know-JS #3",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.42603744651157444,
+    "type": "openIssue",
+    "subTitle": "sindresorhus/awesome #30",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.37889780239029086,
+    "type": "openIssue",
+    "subTitle": "d3/d3 #90",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.2955731927308329,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #57",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.7504506569245014,
+    "type": "openIssue",
+    "subTitle": "facebook/react-native #62",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.8460800811212653,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #41",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.6070459039564311,
+    "type": "openIssue",
+    "subTitle": "airbnb/javascript #60",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.9253398765447756,
+    "type": "closedIssue",
+    "subTitle": "facebook/react #56",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.5884357206587911,
+    "type": "closedIssue",
+    "subTitle": "d3/d3 #53",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.09415732516952878,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #94",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.846875192806393,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #13",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.6132721935802392,
+    "type": "closedIssue",
+    "subTitle": "d3/d3 #94",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.26609891722203055,
+    "type": "closedIssue",
+    "subTitle": "facebook/react #88",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.037053641573354945,
+    "type": "openIssue",
+    "subTitle": "airbnb/javascript #75",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.7123486149164269,
+    "type": "closedIssue",
+    "subTitle": "airbnb/javascript #77",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.1364471577601198,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #58",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.9241033911947949,
+    "type": "openIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #86",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.8236457848652988,
+    "type": "openIssue",
+    "subTitle": "ant-design/ant-design #55",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.6408250297057335,
+    "type": "closedIssue",
+    "subTitle": "airbnb/javascript #83",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.24076090270851092,
+    "type": "openIssue",
+    "subTitle": "airbnb/javascript #12",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.9016780010085664,
+    "type": "openIssue",
+    "subTitle": "facebook/react-native #79",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.06335668548272581,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #92",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.219573586551489,
+    "type": "openIssue",
+    "subTitle": "getify/You-Dont-Know-JS #57",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.8023573487313593,
+    "type": "closedIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #4",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.25456743165178647,
+    "type": "openIssue",
+    "subTitle": "vuejs/vue #19",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.9129155431837946,
+    "type": "openIssue",
+    "subTitle": "getify/You-Dont-Know-JS #39",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.43801688505742725,
+    "type": "closedIssue",
+    "subTitle": "twbs/bootstrap #70",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.046474453076447875,
+    "type": "openIssue",
+    "subTitle": "facebook/react #59",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.04974497052383204,
+    "type": "closedIssue",
+    "subTitle": "facebook/react #21",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.7412064955430826,
+    "type": "openIssue",
+    "subTitle": "tensorflow/tensorflow #81",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.9263700741130523,
+    "type": "closedIssue",
+    "subTitle": "ant-design/ant-design #31",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.10836114433864466,
+    "type": "openIssue",
+    "subTitle": "vuejs/vue #30",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.2968133426682173,
+    "type": "openIssue",
+    "subTitle": "sindresorhus/awesome #87",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.6026986036988807,
+    "type": "closedIssue",
+    "subTitle": "angular/angular.js #27",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.5839688235321489,
+    "type": "openIssue",
+    "subTitle": "airbnb/javascript #12",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.3777352003749815,
+    "type": "openIssue",
+    "subTitle": "ant-design/ant-design #87",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.49171612172442547,
+    "type": "openIssue",
+    "subTitle": "airbnb/javascript #54",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.5231507175275286,
+    "type": "openIssue",
+    "subTitle": "d3/d3 #31",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.5881940201822325,
+    "type": "closedIssue",
+    "subTitle": "ant-design/ant-design #31",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.9852695766788565,
+    "type": "openIssue",
+    "subTitle": "ant-design/ant-design #84",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.07299013413807172,
+    "type": "openIssue",
+    "subTitle": "ant-design/ant-design #88",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.8399123043872384,
+    "type": "closedIssue",
+    "subTitle": "facebook/react-native #9",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.9581843868467099,
+    "type": "openIssue",
+    "subTitle": "twbs/bootstrap #34",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.34506442338046944,
+    "type": "openIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #65",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.042629590669077025,
+    "type": "closedIssue",
+    "subTitle": "facebook/react #30",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.2569587465551999,
+    "type": "openIssue",
+    "subTitle": "twbs/bootstrap #48",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.5218475438818866,
+    "type": "openIssue",
+    "subTitle": "twbs/bootstrap #45",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.13012810015083165,
+    "type": "closedIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #64",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.6956248127066601,
+    "type": "openIssue",
+    "subTitle": "airbnb/javascript #93",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.3957804459096636,
+    "type": "closedIssue",
+    "subTitle": "getify/You-Dont-Know-JS #0",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.10626053140743381,
+    "type": "closedIssue",
+    "subTitle": "airbnb/javascript #22",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.332108429349838,
+    "type": "closedIssue",
+    "subTitle": "facebook/react-native #30",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.7351774582041009,
+    "type": "closedIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #52",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.4420905324140703,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #91",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.6699370729765424,
+    "type": "closedIssue",
+    "subTitle": "angular/angular.js #17",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.5402786430601989,
+    "type": "closedIssue",
+    "subTitle": "d3/d3 #88",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.8009815931513002,
+    "type": "openIssue",
+    "subTitle": "ant-design/ant-design #78",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.05332591379354834,
+    "type": "closedIssue",
+    "subTitle": "sindresorhus/awesome #6",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.34271420334767033,
+    "type": "openIssue",
+    "subTitle": "twbs/bootstrap #71",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.6064055830645904,
+    "type": "openIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #1",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.7862276977298918,
+    "type": "openIssue",
+    "subTitle": "airbnb/javascript #91",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.9192934812381856,
+    "type": "openIssue",
+    "subTitle": "facebook/react-native #94",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.5485683810496759,
+    "type": "openIssue",
+    "subTitle": "sindresorhus/awesome #3",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.5409893480518272,
+    "type": "openIssue",
+    "subTitle": "angular/angular.js #96",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.7630054076208682,
+    "type": "closedIssue",
+    "subTitle": "sindresorhus/awesome #45",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.2845044489407198,
+    "type": "openIssue",
+    "subTitle": "facebook/react-native #35",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.5337663756659828,
+    "type": "openIssue",
+    "subTitle": "twbs/bootstrap #61",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.4477439595648366,
+    "type": "openIssue",
+    "subTitle": "angular/angular.js #62",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.3885866111381151,
+    "type": "closedIssue",
+    "subTitle": "vuejs/vue #59",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.13905165217842452,
+    "type": "closedIssue",
+    "subTitle": "sindresorhus/awesome #95",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.19558106469243577,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #56",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.5434824735852676,
+    "type": "openIssue",
+    "subTitle": "facebook/react #18",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.18443931917524756,
+    "type": "closedIssue",
+    "subTitle": "tensorflow/tensorflow #21",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.523076798076024,
+    "type": "closedIssue",
+    "subTitle": "d3/d3 #67",
+    "title": "Add a new feature",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.6243433831119556,
+    "type": "closedIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #31",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.8795964915400107,
+    "type": "closedIssue",
+    "subTitle": "vuejs/vue #43",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.4328547163406205,
+    "type": "closedIssue",
+    "subTitle": "twbs/bootstrap #16",
+    "title": "Fix a bug",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a question."
+  },
+  {
+    "id": 0.738703091748368,
+    "type": "openIssue",
+    "subTitle": "ant-design/ant-design #13",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.4046327543133006,
+    "type": "openIssue",
+    "subTitle": "vuejs/vue #21",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.024425574772217174,
+    "type": "openIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #23",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 1,
+      "name": "coolcorexix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25930830?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.5395341716765434,
+    "type": "closedIssue",
+    "subTitle": "ant-design/ant-design #44",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.7311422447055995,
+    "type": "closedIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #93",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.20056782168834117,
+    "type": "closedIssue",
+    "subTitle": "angular/angular.js #91",
+    "title": "Dropdown menu in navbar",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  },
+  {
+    "id": 0.33655436379407927,
+    "type": "closedIssue",
+    "subTitle": "vuejs/vue #92",
+    "title": "👋 Nemo",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 3,
+      "name": "danielmontenegro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/669295?s=40&v=4"
+    },
+    "descriptionText": "@giautm woah, that's pretty cool!"
+  },
+  {
+    "id": 0.38560869024633637,
+    "type": "openIssue",
+    "subTitle": "facebook/react #96",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a feature."
+  },
+  {
+    "id": 0.9755369793036701,
+    "type": "closedIssue",
+    "subTitle": "ohmyzsh/ohmyzsh #18",
+    "title": "Build bundler",
+    "isRead": false,
+    "notifyingUser": {
+      "id": 2,
+      "name": "giautm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12751435?s=40&v=4"
+    },
+    "descriptionText": "I think this is a bug."
+  }
+]

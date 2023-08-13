@@ -109,3 +109,6 @@ export const notifications: GitHnbNotification[] = [
         descriptionText: "@giautm woah, that's p...",
     }
 ]
+
+
+console.log(generateRandomIssueNoti());

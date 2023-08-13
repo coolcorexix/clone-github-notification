@@ -1,17 +1,12 @@
-import { generateRandomIssueNoti } from ".";
+import initialNotificationData from '../data/notificationData.json';
 
-const DATASET_SIZE = 200;
-
-//* thank god this data is persistent
+//* this is not so persistent
 let notificationsData: any = null;
 
 export const getNotificationsData = async () => {
     if (!notificationsData) {
 
-        notificationsData = [];
-        for (let i = 0; i < DATASET_SIZE; i++) {
-            notificationsData.push(generateRandomIssueNoti());
-        }
+        notificationsData = initialNotificationData
     }
     return notificationsData;
 }

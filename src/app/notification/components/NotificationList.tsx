@@ -17,7 +17,7 @@ const ContainerHeight = 400;
 
 function NotificationList() {
   const state = useNotificationPageState();
-  const { selectedNotificationIds, mode } = state;
+  const { mode, selectedNotificationIds } = state;
   const isAtEditMode = mode === "edit";
   const {
     notifications: notificationItems,
@@ -29,11 +29,9 @@ function NotificationList() {
   const dispatch = useNotificationPageDispatch();
 
   // this function does not use useCallback in intentional way
-  const onCheckNotificationItem = (
-    e: CheckboxChangeEvent,
-    item: GitHnbNotification
-  ) => {
-    const newCheckedValued = e.target.checked;
+  const onCheckNotificationItem = (item: GitHnbNotification) => {
+    const isBeingChecked = selectedNotificationIds.includes(item.id);
+    const newCheckedValued = !isBeingChecked;
     if (newCheckedValued) {
       selectNotification(dispatch, item.id);
     } else {
@@ -66,10 +64,16 @@ function NotificationList() {
       >
         {(item: GitHnbNotification) => {
           return (
-            <List.Item className="border-b-gray-700 border-b-2">
+            <List.Item
+              style={{
+                padding: 0,
+              }}
+              className="border-b-gray-700 border-b-2"
+            >
               <NotificationItem
-                onCheckItem={(e) => {
-                  onCheckNotificationItem(e, item);
+                isChecked={selectedNotificationIds.includes(item.id)}
+                onCheckItem={() => {
+                  onCheckNotificationItem(item);
                 }}
                 isSelectable={isAtEditMode}
                 item={item}

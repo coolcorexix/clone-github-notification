@@ -8,12 +8,12 @@ import {
 } from "@primer/octicons-react";
 import { GitHnbNotification, NotiType } from "@/types";
 import { Avatar, Checkbox, Space, Typography } from "antd";
-import { CheckboxChangeEvent } from "antd/es/checkbox";
 
 interface NotificationItemProps {
   item: GitHnbNotification;
   isSelectable: boolean;
-  onCheckItem: (e: CheckboxChangeEvent) => void;
+  isChecked: boolean;
+  onCheckItem: () => void;
 }
 
 const getIconFromNotiType = (notiType: NotiType): Icon | null => {
@@ -35,7 +35,18 @@ function NotificationItem(props: NotificationItemProps) {
   const { type } = props.item;
   const Icon = getIconFromNotiType(type);
   return (
-    <div id="whole-item" className="  flex flex-row w-full">
+    <div
+      onClick={() => {
+        if (props.isSelectable) {
+          props.onCheckItem();
+        }
+      }}
+      id="whole-item"
+      className={
+        (props.isSelectable ? "hover:bg-gray-700 cursor-pointer" : "") +
+        " flex flex-row w-full p-2"
+      }
+    >
       <div
         id="checkbox"
         className={
@@ -43,7 +54,7 @@ function NotificationItem(props: NotificationItemProps) {
           " mr-2 flex flex-col justify-center items-center"
         }
       >
-        <Checkbox onChange={props.onCheckItem} />
+        <Checkbox checked={props.isChecked} />
       </div>
       <div className="w-full  flex flex-row flex-nowrap " id="content">
         <div id="icon " className="mr-2">

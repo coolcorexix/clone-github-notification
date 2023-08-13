@@ -53,13 +53,13 @@ function generateRandomRepoName() {
         "angular/angular.js",
         "facebook/react-native",
     ]
-    const randomIndex = Math.floor(rng() * 100);
+    const randomIndex = Math.floor(rng() * popularRepos.length);
     return popularRepos[randomIndex];
 }
 
 function generateRandomSubTitleForIssueNoti() {
     const randomIndex = Math.floor(rng() * 100);
-    return `ant-design/ant-design #${randomIndex}`;
+    return `${generateRandomRepoName()} #${randomIndex}`;
 }
 
 function generateRandomIssueTitle() {

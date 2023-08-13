@@ -13,7 +13,7 @@ function AppHeader() {
 
   return (
     <div className="w-full border-b-gray-700 border-b-2">
-      <div className="max-w-screen-lg w-100 flex flex-row m-auto justify-between p-4  ">
+      <div className="max-w-screen-md w-100 flex flex-row m-auto justify-between p-4  ">
         <Link href="/">
           <Space>
             <MarkGithubIcon size="medium" />

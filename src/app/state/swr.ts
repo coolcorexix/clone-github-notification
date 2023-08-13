@@ -7,7 +7,7 @@ const PAGE_SIZE = 20;
 const getKey = (
     pageIndex: number,
     previousPageData: {
-        notifications: any[];
+        notifications: GitHnbNotification[];
         hasMore: boolean;
     }
 ) => {

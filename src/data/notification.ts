@@ -1,3 +1,4 @@
+import { GitHnbNotification } from '@/types';
 import initialNotificationData from '../data/notificationData.json';
 
 //* this is not so persistent
@@ -11,6 +12,6 @@ export const getNotificationsData = async () => {
     return notificationsData;
 }
 
-export const setNotificationsData = (data: any[]) => {
+export const setNotificationsData = (data: GitHnbNotification[]) => {
     notificationsData = data;
 }

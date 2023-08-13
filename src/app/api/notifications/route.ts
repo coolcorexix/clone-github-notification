@@ -1,8 +1,8 @@
+import { GitHnbNotification } from '@/types';
 import { NextResponse } from 'next/server';
 import {
     getNotificationsData, setNotificationsData
 } from '../../../data/notification';
-import { FixMeLater } from '@/types';
 
 
 export async function GET(req: Request) {
@@ -23,7 +23,7 @@ export async function DELETE(req: Request) {
     const reqJson = await req.json();
     const { notificationIds } = reqJson;
     const notificationsData = await getNotificationsData();
-    const notifications = notificationsData.filter((notification: FixMeLater) => !notificationIds.includes(notification.id));
+    const notifications = notificationsData.filter((notification: GitHnbNotification) => !notificationIds.includes(notification.id));
     setNotificationsData(notifications);
     return NextResponse.json({ notifications })
 }

@@ -1,7 +1,8 @@
 import { NextResponse } from 'next/server';
 import {
-    getNotificationsData
+    getNotificationsData, setNotificationsData
 } from '../../../data/notification';
+import { FixMeLater } from '@/types';
 
 
 export async function GET(req: Request) {
@@ -14,5 +15,15 @@ export async function GET(req: Request) {
 
     const notifications = notificationsData.slice(startIndex, endIndex);
 
+    return NextResponse.json({ notifications })
+}
+
+export async function DELETE(req: Request) {
+    // conver req.body to json
+    const reqJson = await req.json();
+    const { notificationIds } = reqJson;
+    const notificationsData = await getNotificationsData();
+    const notifications = notificationsData.filter((notification: FixMeLater) => !notificationIds.includes(notification.id));
+    setNotificationsData(notifications);
     return NextResponse.json({ notifications })
 }

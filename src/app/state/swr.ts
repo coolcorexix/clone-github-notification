@@ -16,15 +16,26 @@ const getKey = (
 };
 
 export function useSWRNotifications() {
-    const { data, size, setSize, isLoading } = useSWRInfinite(getKey, fetcher);
+    const { data, size, setSize, isLoading, mutate } = useSWRInfinite(getKey, fetcher);
     const loadMore = () => setSize(size + 1);
     const notifications = data ? data.flatMap((page) => page.notifications) : [];
     const isLoadingMore = (size > 0 && data && typeof data[size - 1] === "undefined");
+    const deleteNotifications = async (notificationIds: number[]) => {
+        await fetcher(`/api/notifications?notificationIds`, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ notificationIds })
+        });
+        mutate();
+    }
     return {
         notifications,
         loadMore,
         isLoading,
         isLoadingMore,
+        deleteNotifications
     }
 
 }

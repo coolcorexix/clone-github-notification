@@ -1,7 +1,8 @@
-import { useState } from "react";
-import { Button, Space, Typography } from "antd";
+import { useEffect, useState } from "react";
+import { Button, Space, Typography, message } from "antd";
 import {
   deselectAllNotifications,
+  removeDeletedSelectedNotifications,
   selectAllNotifications,
   switchToEditMode,
   switchToReadOnlyMode,
@@ -15,13 +16,20 @@ import { useSWRNotifications } from "@/app/state/swr";
 function PageHeader() {
   const state = useNotificationPageState();
   const dispatch = useNotificationPageDispatch();
-  const { notifications } = useSWRNotifications();
+  const { notifications, deleteNotifications } = useSWRNotifications();
   const loadedNotificationIds = notifications.map((item) => item.id);
   const { mode, selectedNotificationIds } = state;
   const totalOfSelectedItems = selectedNotificationIds.length;
   const [bulkSelectMode, setBulkSelectMode] = useState<"select" | "deselect">(
     "select"
   );
+
+  useEffect(() => {
+    if (!selectedNotificationIds.length) {
+      setBulkSelectMode("select");
+    }
+  }, [selectedNotificationIds.length]);
+
   const toggleSelectMode = () => {
     if (bulkSelectMode === "select") {
       setBulkSelectMode("deselect");
@@ -30,9 +38,9 @@ function PageHeader() {
     }
   };
   return (
-    <div>
+    <>
       {mode === "readOnly" && (
-        <Space>
+        <Space direction="vertical">
           <Space>
             <Button
               type="text"
@@ -43,12 +51,13 @@ function PageHeader() {
               Select
             </Button>
           </Space>
-
-          <Typography.Title level={2}>Inbox</Typography.Title>
+          <Space>
+            <Typography.Title level={2}>Inbox</Typography.Title>
+          </Space>
         </Space>
       )}
       {mode === "edit" && (
-        <div>
+        <Space direction="vertical">
           <Space>
             <Button
               onClick={() => {
@@ -80,14 +89,39 @@ function PageHeader() {
               </Button>
             )}
           </Space>
-          <Typography.Title level={2}>
-            {totalOfSelectedItems
-              ? `${totalOfSelectedItems} selected`
-              : "Select Items"}
-          </Typography.Title>
-        </div>
+          <Space>
+            <Typography.Title level={2}>
+              {totalOfSelectedItems
+                ? `${totalOfSelectedItems} selected`
+                : "Select Items"}
+            </Typography.Title>
+          </Space>
+          {totalOfSelectedItems > 0 && (
+            <Space direction="horizontal">
+              <Button type="text">Mark as unread</Button>
+              <Button type="text">Mark as read</Button>
+              <Button
+                onClick={async () => {
+                  try {
+                    await deleteNotifications(selectedNotificationIds);
+                    removeDeletedSelectedNotifications(
+                      dispatch,
+                      selectedNotificationIds
+                    );
+                  } catch (error) {
+                    message.error("Failed to delete notifications");
+                    // send log to sentry here
+                  }
+                }}
+                type="text"
+              >
+                Delete
+              </Button>
+            </Space>
+          )}
+        </Space>
       )}
-    </div>
+    </>
   );
 }
 

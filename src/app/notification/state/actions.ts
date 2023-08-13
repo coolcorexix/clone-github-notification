@@ -42,3 +42,10 @@ export function deselectAllNotifications(dispatch: Dispatch<Action>) {
         type: constants.DE_SELECT_ALL_NOTIFICATIONS
     });
 }
+
+export function removeDeletedSelectedNotifications(dispatch: Dispatch<Action>, notificationIds: number[]) {
+    dispatch({
+        type: constants.REMOVE_DELETED_SELECTED_NOTIFICATIONS,
+        payload: { notificationIds }
+    });
+}

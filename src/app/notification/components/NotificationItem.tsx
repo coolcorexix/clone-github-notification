@@ -6,15 +6,10 @@ import {
   Icon,
   IssueOpenedIcon,
 } from "@primer/octicons-react";
-import { NotiType } from "@/types";
+import { GitHnbNotification, NotiType } from "@/types";
 
 interface NotificationItemProps {
-  notiType: NotiType;
-  isUnread: boolean;
-  timeStamp: number;
-  subTitle: string;
-  title: string;
-  description: string;
+  item: GitHnbNotification;
 }
 
 const getIconFromNotiType = (notiType: NotiType): Icon | null => {
@@ -33,8 +28,8 @@ const getIconFromNotiType = (notiType: NotiType): Icon | null => {
 };
 
 function NotificationItem(props: NotificationItemProps) {
-  const { notiType } = props;
-  const Icon = getIconFromNotiType(notiType);
+  const { type } = props.item;
+  const Icon = getIconFromNotiType(type);
   return <div>{!!Icon && <Icon />}</div>;
 }
 

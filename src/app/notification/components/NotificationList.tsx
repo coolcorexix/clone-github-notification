@@ -10,24 +10,8 @@ import {
   useNotificationPageDispatch,
   useNotificationPageState,
 } from "../state/context";
-
-interface UserItem {
-  email: string;
-  gender: string;
-  name: {
-    first: string;
-    last: string;
-    title: string;
-  };
-  nat: string;
-  picture: {
-    large: string;
-    medium: string;
-    thumbnail: string;
-  };
-  id: number;
-  isSelected: boolean;
-}
+import NotificationItem from "./NotificationItem";
+import { GitHnbNotification } from "@/types";
 
 const ContainerHeight = 400;
 
@@ -44,7 +28,7 @@ function NotificationList() {
   const dispatch = useNotificationPageDispatch();
 
   // this function does not use useCallback in intentional way
-  const onChange = (e: CheckboxChangeEvent, item: UserItem) => {
+  const onChange = (e: CheckboxChangeEvent, item: GitHnbNotification) => {
     const newCheckedValued = e.target.checked;
     if (newCheckedValued) {
       selectNotification(dispatch, item.id);
@@ -72,29 +56,29 @@ function NotificationList() {
         data={notificationItems}
         height={ContainerHeight}
         itemHeight={47}
-        itemKey="email"
+        // this will be used to distinguish between items
+        // no need to set key for children below
+        itemKey="id"
         onScroll={onScroll}
       >
-        {(item: UserItem) => (
-          <List.Item key={item.email}>
-            <List.Item.Meta
-              avatar={<Avatar src={item.picture.large} />}
-              title={
-                <a href="https://ant.design">
-                  <Typography.Text>{item.name.last}</Typography.Text>
-                </a>
-              }
-              description={item.email}
-            />
-            <Checkbox
-              checked={selectedNotificationIds.indexOf(item.id) !== -1}
-              onChange={(e) => {
-                onChange(e, item);
-              }}
-            />
-            <div>Content</div>
-          </List.Item>
-        )}
+        {(item: GitHnbNotification) => {
+          console.log(
+            "🚀 ~ file: NotificationList.tsx:65 ~ NotificationList ~ item.id:",
+            item.id
+          );
+          return (
+            <List.Item>
+              <NotificationItem item={item} />
+              <Checkbox
+                checked={selectedNotificationIds.indexOf(item.id) !== -1}
+                onChange={(e) => {
+                  onChange(e, item);
+                }}
+              />
+              <div>Content</div>
+            </List.Item>
+          );
+        }}
       </VirtualList>
     </List>
   );

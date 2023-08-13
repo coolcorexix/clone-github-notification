@@ -1,6 +1,7 @@
 import {
     DESELECT_NOTIFICATION,
     DE_SELECT_ALL_NOTIFICATIONS,
+    REMOVE_DELETED_SELECTED_NOTIFICATIONS,
     SELECT_ALL_NOTIFICATIONS,
     SELECT_NOTIFICATION,
     SWITCH_TO_EDIT_MODE,
@@ -50,6 +51,12 @@ export const reducer = (state: NotificationPageState, action: Action): Notificat
             return {
                 ...state,
                 selectedNotificationIds: [],
+            }
+        }
+        case REMOVE_DELETED_SELECTED_NOTIFICATIONS: {
+            return {
+                ...state,
+                selectedNotificationIds: state.selectedNotificationIds.filter(id => !action.payload?.notificationIds.includes(id))
             }
         }
         default: {

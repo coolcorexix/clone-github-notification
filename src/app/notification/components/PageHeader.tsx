@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Button, Space, Typography, message } from "antd";
 import {
   deselectAllNotifications,
@@ -16,10 +16,25 @@ import { useSWRNotifications } from "@/app/state/swr";
 function PageHeader() {
   const state = useNotificationPageState();
   const dispatch = useNotificationPageDispatch();
-  const { notifications, deleteNotifications } = useSWRNotifications();
+  const {
+    notifications,
+    deleteNotifications,
+    markNotificationsAsRead,
+    markNotificationsAsUnread,
+  } = useSWRNotifications();
   const loadedNotificationIds = notifications.map((item) => item.id);
   const { mode, selectedNotificationIds } = state;
   const totalOfSelectedItems = selectedNotificationIds.length;
+  const unreadIds = useMemo(() => {
+    return notifications.filter((item) => item.isUnread).map((item) => item.id);
+  }, [notifications]);
+  const isSelectedIncludingUnread = useMemo(() => {
+    return selectedNotificationIds.some((id) => unreadIds.includes(id));
+  }, [selectedNotificationIds, unreadIds]);
+  const iseSelectedIncludingRead = useMemo(() => {
+    return selectedNotificationIds.some((id) => !unreadIds.includes(id));
+  }, [selectedNotificationIds, unreadIds]);
+
   const [bulkSelectMode, setBulkSelectMode] = useState<"select" | "deselect">(
     "select"
   );
@@ -107,8 +122,29 @@ function PageHeader() {
           </Space>
           {totalOfSelectedItems > 0 && (
             <Space direction="horizontal">
-              <Button type="text">Mark as unread</Button>
-              <Button type="text">Mark as read</Button>
+              {iseSelectedIncludingRead && (
+                <Button
+                  onClick={() => {
+                    markNotificationsAsUnread(selectedNotificationIds);
+                    deselectAllNotifications(dispatch);
+                  }}
+                  type="text"
+                >
+                  Mark as unread
+                </Button>
+              )}
+              {isSelectedIncludingUnread && (
+                <Button
+                  type="text"
+                  onClick={() => {
+                    markNotificationsAsRead(selectedNotificationIds);
+                    deselectAllNotifications(dispatch);
+                  }}
+                >
+                  Mark as read
+                </Button>
+              )}
+
               <Button
                 onClick={async () => {
                   try {

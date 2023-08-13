@@ -2,6 +2,7 @@ import React from "react";
 import {
   CheckCircleIcon,
   CommentDiscussionIcon,
+  DotFillIcon,
   GitPullRequestIcon,
   Icon,
   IssueOpenedIcon,
@@ -57,8 +58,9 @@ function NotificationItem(props: NotificationItemProps) {
         <Checkbox checked={props.isChecked} />
       </div>
       <div className="w-full  flex flex-row flex-nowrap " id="content">
-        <div id="icon " className="mr-2">
+        <div id="icon" className="mr-2 w-min">
           {Icon && <Icon />}
+          {props.item.isUnread && <DotFillIcon fill="#1f6feb" />}
         </div>
         <div
           className=" flex flex-col w-full pb-4 border-b-gray-700 border-b-2"

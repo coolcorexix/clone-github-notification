@@ -8,7 +8,7 @@ import { useSWRNotifications } from "../state/swr";
 function AppHeader() {
   const pathname = usePathname();
   const { notifications } = useSWRNotifications();
-
+  const haveUnreadNotifications = notifications.some((item) => item.isUnread);
   const isAtNotificationPage = pathname === "/notification";
 
   return (
@@ -23,13 +23,17 @@ function AppHeader() {
         <Space>
           <Tooltip title="Notification">
             <Link href="/notification">
-              {isAtNotificationPage ? (
-                <BellFillIcon fill="white" />
-              ) : (
-                <Badge color="blue" dot count={notifications.length}>
+              <Badge
+                color="#1f6feb"
+                dot
+                count={haveUnreadNotifications ? 1 : 0}
+              >
+                {isAtNotificationPage ? (
+                  <BellFillIcon fill="white" />
+                ) : (
                   <BellIcon />
-                </Badge>
-              )}
+                )}
+              </Badge>
             </Link>
           </Tooltip>
         </Space>

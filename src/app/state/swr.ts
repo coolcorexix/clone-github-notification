@@ -30,12 +30,20 @@ export function useSWRNotifications() {
         });
         mutate();
     }
+
+    const restoreNotifications = async () => {
+        await fetcher(`/api/notifications/reset`, {
+            method: 'POST',
+        });
+        mutate();
+    }
     return {
         notifications,
         loadMore,
         isLoading,
         isLoadingMore,
-        deleteNotifications
+        deleteNotifications,
+        restoreNotifications
     }
 
 }

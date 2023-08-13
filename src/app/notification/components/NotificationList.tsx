@@ -1,6 +1,15 @@
 "use client";
 import React from "react";
-import { Avatar, Checkbox, Empty, List, Typography, message } from "antd";
+import {
+  Avatar,
+  Button,
+  Checkbox,
+  Empty,
+  List,
+  Space,
+  Typography,
+  message,
+} from "antd";
 import VirtualList from "rc-virtual-list";
 
 import { useSWRNotifications } from "@/app/state/swr";
@@ -21,6 +30,7 @@ function NotificationList() {
   const isAtEditMode = mode === "edit";
   const {
     notifications: notificationItems,
+    restoreNotifications,
     loadMore,
     isLoading,
     isLoadingMore,
@@ -52,7 +62,18 @@ function NotificationList() {
   };
 
   if (notificationItems.length === 0 && !isLoading) {
-    return <Empty description="It is so quiet here 🦗" />;
+    return (
+      <Empty
+        description={
+          <Space direction="vertical" size="middle">
+            <Typography.Text>It is so quiet here 🦗.</Typography.Text>
+            <Button onClick={restoreNotifications}>
+              Restore notifications
+            </Button>
+          </Space>
+        }
+      />
+    );
   }
 
   return (

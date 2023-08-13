@@ -7,17 +7,21 @@ import {
   IssueOpenedIcon,
 } from "@primer/octicons-react";
 import { GitHnbNotification, NotiType } from "@/types";
+import { Avatar, Checkbox, Space, Typography } from "antd";
+import { CheckboxChangeEvent } from "antd/es/checkbox";
 
 interface NotificationItemProps {
   item: GitHnbNotification;
+  isSelectable: boolean;
+  onCheckItem: (e: CheckboxChangeEvent) => void;
 }
 
 const getIconFromNotiType = (notiType: NotiType): Icon | null => {
   switch (notiType) {
     case "closedIssue":
-      return CheckCircleIcon;
+      return () => <CheckCircleIcon fill="#a371f7" />;
     case "openIssue":
-      return IssueOpenedIcon;
+      return () => <IssueOpenedIcon fill="#3fb950" />;
     case "discussion":
       return CommentDiscussionIcon;
     case "pullRequest":
@@ -30,7 +34,48 @@ const getIconFromNotiType = (notiType: NotiType): Icon | null => {
 function NotificationItem(props: NotificationItemProps) {
   const { type } = props.item;
   const Icon = getIconFromNotiType(type);
-  return <div>{!!Icon && <Icon />}</div>;
+  return (
+    <div id="whole-item" className="  flex flex-row w-full">
+      <div
+        id="checkbox"
+        className={
+          (props.isSelectable ? "visible" : "invisible") +
+          " mr-2 flex flex-col justify-center items-center"
+        }
+      >
+        <Checkbox onChange={props.onCheckItem} />
+      </div>
+      <div className="w-full  flex flex-row flex-nowrap " id="content">
+        <div id="icon " className="mr-2">
+          {Icon && <Icon />}
+        </div>
+        <div
+          className=" flex flex-col w-full pb-4 border-b-gray-700 border-b-2"
+          id="detail"
+        >
+          <div>
+            <Typography.Text type="secondary">
+              {props.item.subTitle}
+            </Typography.Text>
+          </div>
+          <div>
+            <Typography.Text>{props.item.title}</Typography.Text>
+          </div>
+
+          <div>
+            <Avatar
+              className="mr-1"
+              size="small"
+              src={props.item.notifyingUser.avatarUrl}
+            />
+            <Typography.Text type="secondary">
+              {props.item.descriptionText}
+            </Typography.Text>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default NotificationItem;

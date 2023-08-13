@@ -21,6 +21,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
           theme={{
             token: {
               colorText: "white",
+              colorTextBase: "hsl(0.60,0.08,0.9)",
             },
           }}
         >

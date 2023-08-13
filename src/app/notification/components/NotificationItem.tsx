@@ -9,7 +9,7 @@ import {
 } from "@primer/octicons-react";
 import { GitHnbNotification, NotiType } from "@/types";
 import { Avatar, Checkbox, Tooltip, Typography } from "antd";
-
+import moment from "moment";
 interface NotificationItemProps {
   item: GitHnbNotification;
   isSelectable: boolean;
@@ -66,9 +66,12 @@ function NotificationItem(props: NotificationItemProps) {
           className=" flex flex-col w-full pb-4 border-b-gray-700 border-b-2"
           id="detail"
         >
-          <div>
+          <div className="flex flex-row justify-between">
             <Typography.Text type="secondary">
               {props.item.subTitle}
+            </Typography.Text>
+            <Typography.Text type="secondary">
+              {moment(props.item.timestamp).fromNow()}
             </Typography.Text>
           </div>
           <div>

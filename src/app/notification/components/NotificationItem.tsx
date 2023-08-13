@@ -7,7 +7,7 @@ import {
   IssueOpenedIcon,
 } from "@primer/octicons-react";
 import { GitHnbNotification, NotiType } from "@/types";
-import { Avatar, Checkbox, Space, Typography } from "antd";
+import { Avatar, Checkbox, Tooltip, Typography } from "antd";
 
 interface NotificationItemProps {
   item: GitHnbNotification;
@@ -74,11 +74,14 @@ function NotificationItem(props: NotificationItemProps) {
           </div>
 
           <div>
-            <Avatar
-              className="mr-1"
-              size="small"
-              src={props.item.notifyingUser.avatarUrl}
-            />
+            <Tooltip placement="bottom" title={props.item.notifyingUser.name}>
+              <Avatar
+                className="mr-1"
+                size="small"
+                src={props.item.notifyingUser.avatarUrl}
+              />
+            </Tooltip>
+
             <Typography.Text type="secondary">
               {props.item.descriptionText}
             </Typography.Text>

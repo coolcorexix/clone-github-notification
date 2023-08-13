@@ -92,29 +92,35 @@ function generateRandomIssueNoti() {
     type: generateRandomNotiType(),
     subTitle: generateRandomSubTitleForIssueNoti(),
     title: generateRandomIssueTitle(),
-    isRead: false,
     notifyingUser: generateRandomUser(),
     descriptionText: generateRandomDescriptionIssue(),
   };
 }
-
-const notifications = [
-  {
-    id: 1,
-    type: "closedIssue",
-    subTitle: "ant-design/ant-design #1",
-    title: "👋 Nemo #1",
-    isRead: false,
-    notifyingUser: users[0],
-    descriptionText: "@giautm woah, that's p...",
-  },
-];
 
 let mockData = [];
 
 for (let i = 0; i < 200; i++) {
   mockData.push(generateRandomIssueNoti());
 }
+
+// add isUnread: true to the first 10 notifications
+mockData = mockData.map((noti, index) => {
+  if (index < 10) {
+    return {
+      ...noti,
+      isUnread: true,
+    };
+  }
+  return noti;
+});
+
+// generate timestamp in descending order for mock data
+mockData = mockData.map((noti, index) => {
+  return {
+    ...noti,
+    timestamp: Date.now() - index * 1000 * 60 * 60 * 24,
+  };
+});
 
 // write to a file called notificationData.json
 const fs = require("fs");

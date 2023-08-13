@@ -92,7 +92,7 @@ export function generateRandomIssueNoti(): GitHnbNotification {
         type: generateRandomNotiType(),
         subTitle: generateRandomSubTitleForIssueNoti(),
         title: generateRandomIssueTitle(),
-        isRead: false,
+        timestamp: 0,
         notifyingUser: generateRandomUser(),
         descriptionText: generateRandomDescriptionIssue(),
     }
@@ -104,7 +104,7 @@ export const notifications: GitHnbNotification[] = [
         type: "closedIssue",
         subTitle: 'ant-design/ant-design #1',
         title: '👋 Nemo #1',
-        isRead: false,
+        timestamp: 0,
         notifyingUser: users[0],
         descriptionText: "@giautm woah, that's p...",
     }

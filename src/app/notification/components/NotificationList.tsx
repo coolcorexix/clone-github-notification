@@ -5,14 +5,11 @@ import VirtualList from "rc-virtual-list";
 
 import { useSWRNotifications } from "@/app/state/swr";
 import type { CheckboxChangeEvent } from "antd/es/checkbox";
-import {
-  deselectNotification,
-  selectNotification,
-} from "../state/NoticationPage.actions";
+import { deselectNotification, selectNotification } from "../state/actions";
 import {
   useNotificationPageDispatch,
   useNotificationPageState,
-} from "../state/NotificationPage.context";
+} from "../state/context";
 
 interface UserItem {
   email: string;
@@ -37,7 +34,12 @@ const ContainerHeight = 400;
 function NotificationList() {
   const state = useNotificationPageState();
   const { selectedNotificationIds } = state;
-  const { notifications: notificationItems, loadMore } = useSWRNotifications();
+  const {
+    notifications: notificationItems,
+    loadMore,
+    isLoading,
+    isLoadingMore,
+  } = useSWRNotifications();
 
   const dispatch = useNotificationPageDispatch();
 
@@ -56,6 +58,9 @@ function NotificationList() {
       e.currentTarget.scrollHeight - e.currentTarget.scrollTop ===
       ContainerHeight
     ) {
+      if (isLoading || isLoadingMore) {
+        return;
+      }
       await loadMore();
       message.success(`more items loaded!`);
     }

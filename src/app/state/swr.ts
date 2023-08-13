@@ -16,14 +16,15 @@ const getKey = (
 };
 
 export function useSWRNotifications() {
-    const { data, error, size, setSize } = useSWRInfinite(getKey, fetcher);
-    const isLoading = !data && !error;
+    const { data, size, setSize, isLoading } = useSWRInfinite(getKey, fetcher);
     const loadMore = () => setSize(size + 1);
     const notifications = data ? data.flatMap((page) => page.notifications) : [];
+    const isLoadingMore = (size > 0 && data && typeof data[size - 1] === "undefined");
     return {
         notifications,
-        isLoading,
         loadMore,
+        isLoading,
+        isLoadingMore,
     }
 
 }

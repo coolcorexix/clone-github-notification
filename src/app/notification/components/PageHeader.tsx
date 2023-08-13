@@ -1,17 +1,9 @@
-import React from "react";
+import { Button, Space, Typography } from "antd";
+import { switchToEditMode, switchToReadOnlyMode } from "../state/actions";
 import {
   useNotificationPageDispatch,
   useNotificationPageState,
-} from "../state/NotificationPage.context";
-import { Space, Typography, Button } from "antd";
-import {
-  SWITCH_TO_EDIT_MODE,
-  SWITCH_TO_READ_ONLY_MODE,
-} from "../state/NotificationPage.constants";
-import {
-  switchToEditMode,
-  switchToReadOnlyMode,
-} from "../state/NoticationPage.actions";
+} from "../state/context";
 
 function PageHeader() {
   const state = useNotificationPageState();

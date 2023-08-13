@@ -1,6 +1,6 @@
 import React, { Dispatch } from "react";
 import { NotificationPageState } from "./types";
-import { reducer } from "./NotificationPage.reducer";
+import { reducer } from "./reducer";
 
 const initialState: NotificationPageState = {
   mode: "readOnly",

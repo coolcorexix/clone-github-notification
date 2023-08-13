@@ -4,7 +4,7 @@ import {
     SELECT_NOTIFICATION,
     SWITCH_TO_EDIT_MODE,
     SWITCH_TO_READ_ONLY_MODE
-} from './NotificationPage.constants';
+} from './constants';
 import { Action, NotificationPageState } from './types';
 
 export const reducer = (state: NotificationPageState, action: Action): NotificationPageState => {

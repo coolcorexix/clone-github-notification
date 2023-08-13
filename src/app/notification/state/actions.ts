@@ -1,5 +1,5 @@
 import { Dispatch } from 'react';
-import * as constants from './NotificationPage.constants';
+import * as constants from './constants';
 import { Action } from './types';
 
 export function switchToEditMode(dispatch: Dispatch<Action>) {

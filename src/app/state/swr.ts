@@ -52,6 +52,28 @@ export function useSWRNotifications() {
         });
         mutate();
     }
+
+    const mutateNotificationsReadStatus = (notificationIds: number[], toBeUnread: boolean) => {
+        if (!data) return;
+        mutate(
+            data.map((page) => ({
+                ...page,
+                notifications: page.notifications.map((notification: GitHnbNotification) => {
+                    if (notificationIds.includes(notification.id)) {
+                        return {
+                            ...notification,
+                            isUnread: toBeUnread,
+                        }
+                    }
+                    return notification;
+                })
+            })),
+            {
+                revalidate: false,
+            }
+        );
+    }
+
     const markNotificationsAsRead = async (notificationIds: number[]) => {
         await fetcher(`/api/notifications/read-status`, {
             method: 'PUT',
@@ -60,7 +82,10 @@ export function useSWRNotifications() {
             },
             body: JSON.stringify({ notificationIds, toBeUnread: false })
         });
-        mutate();
+        mutateNotificationsReadStatus(
+            notificationIds,
+            false,
+        );
     }
     const markNotificationsAsUnread = async (notificationIds: number[]) => {
         await fetcher(`/api/notifications/read-status`, {
@@ -70,7 +95,10 @@ export function useSWRNotifications() {
             },
             body: JSON.stringify({ notificationIds, toBeUnread: true })
         });
-        mutate();
+        mutateNotificationsReadStatus(
+            notificationIds,
+            true,
+        );
     }
 
     return {

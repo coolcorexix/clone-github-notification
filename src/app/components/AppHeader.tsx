@@ -14,9 +14,12 @@ function AppHeader() {
           <MarkGithubIcon size="medium" />
           <h1 className=" font-bold">GitHnb</h1>
         </Space>
-        <Typography.Text className="w-full text-center  block">
-          Made with love by <a href="https://nemothecollector.dev/">Nemo</a>
-        </Typography.Text>
+        <div className="flex flex-row items-center justify-center">
+          <Typography.Text className="w-full text-center  block">
+            Made with love by <a href="https://nemothecollector.dev/">Nemo</a>
+          </Typography.Text>
+        </div>
+
         <Space>
           <Tooltip title="Notification">
             <Badge color="#1f6feb" dot count={haveUnreadNotifications ? 1 : 0}>

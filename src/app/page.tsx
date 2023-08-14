@@ -1,6 +1,7 @@
 "use client";
 
 import NotificationList from "./components/NotificationList";
+import PageActions from "./components/PageActions";
 import PageHeader from "./components/PageHeader";
 import { NotificationPageContextProvider } from "./state/context";
 
@@ -14,6 +15,7 @@ function NotificationPage() {
         <div className="p-4 max-w-screen-md m-auto">
           <NotificationList />
         </div>
+        <PageActions />
       </div>
     </NotificationPageContextProvider>
   );

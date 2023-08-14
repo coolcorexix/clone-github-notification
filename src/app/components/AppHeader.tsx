@@ -1,6 +1,6 @@
 // Header from antd Layout can not be used as Server Component hence this component
 import { BellFillIcon, BellIcon, MarkGithubIcon } from "@primer/octicons-react";
-import { Badge, Space, Tooltip } from "antd";
+import { Badge, Space, Tooltip, Typography } from "antd";
 import { useSWRNotifications } from "../state/swr";
 
 function AppHeader() {
@@ -14,7 +14,9 @@ function AppHeader() {
           <MarkGithubIcon size="medium" />
           <h1 className=" font-bold">GitHnb</h1>
         </Space>
-
+        <Typography.Text className="w-full text-center  block">
+          Made with love by <a href="https://nemothecollector.dev/">Nemo</a>
+        </Typography.Text>
         <Space>
           <Tooltip title="Notification">
             <Badge color="#1f6feb" dot count={haveUnreadNotifications ? 1 : 0}>

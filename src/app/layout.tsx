@@ -22,11 +22,6 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
         >
           <AppHeader />
           {children}
-          <div className="pt-8" id=" footer ">
-            <Typography.Text className="w-full text-center  block">
-              Made with love by <a href="https://nemothecollector.dev/">Nemo</a>
-            </Typography.Text>
-          </div>
         </ConfigProvider>
       </StyledComponentsRegistry>
     </body>

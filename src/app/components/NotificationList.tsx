@@ -1,26 +1,16 @@
 "use client";
-import React from "react";
-import {
-  Avatar,
-  Button,
-  Checkbox,
-  Empty,
-  List,
-  Space,
-  Typography,
-  message,
-} from "antd";
+import { Button, Empty, List, Space, Typography } from "antd";
 import VirtualList from "rc-virtual-list";
+import React from "react";
 
 import { useSWRNotifications } from "@/app/state/swr";
-import type { CheckboxChangeEvent } from "antd/es/checkbox";
+import { GitHnbNotification } from "@/types";
 import { deselectNotification, selectNotification } from "../state/actions";
 import {
   useNotificationPageDispatch,
   useNotificationPageState,
 } from "../state/context";
 import NotificationItem from "./NotificationItem";
-import { GitHnbNotification } from "@/types";
 
 const ContainerHeight = 400;
 
@@ -61,9 +51,26 @@ function NotificationList() {
     }
   };
 
+  if (notificationItems.length === 0 && isLoading) {
+    return (
+      <Empty
+        style={{
+          height: ContainerHeight,
+        }}
+        description={
+          <Space direction="vertical" size="middle">
+            Notifications are loading... One moment please.
+          </Space>
+        }
+      />
+    );
+  }
   if (notificationItems.length === 0 && !isLoading) {
     return (
       <Empty
+        style={{
+          height: ContainerHeight,
+        }}
         description={
           <Space direction="vertical" size="middle">
             <Typography.Text>It is so quiet here 🦗.</Typography.Text>

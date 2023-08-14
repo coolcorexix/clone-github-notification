@@ -23,6 +23,11 @@ export function useSWRNotifications() {
     const loadMore = () => setSize(size + 1);
     const notifications: GitHnbNotification[] = data ? data.flatMap((page) => page.notifications) : [];
     const isLoadingMore = (size > 0 && data && typeof data[size - 1] === "undefined");
+    const resetNotificationsSize = () => {
+        setSize(1);
+        // perform a hard reset on the cache
+        mutate();
+    };
     const deleteNotifications = async (notificationIds: number[]) => {
         const response = await fetcher(`/api/notifications`, {
             method: 'DELETE',
@@ -104,6 +109,7 @@ export function useSWRNotifications() {
     }
 
     return {
+        resetNotificationsSize,
         notifications,
         loadMore,
         isLoading,

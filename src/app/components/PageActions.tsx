@@ -18,9 +18,16 @@ function PageActions() {
     deleteNotifications,
     markNotificationsAsRead,
     markNotificationsAsUnread,
+    resetNotificationsSize,
   } = useSWRNotifications();
 
   const { selectedNotificationIds } = state;
+  const isSelectingAll = useMemo(() => {
+    return (
+      notifications.length > 0 &&
+      selectedNotificationIds.length === notifications.length
+    );
+  }, [notifications.length, selectedNotificationIds]);
   const totalOfSelectedItems = selectedNotificationIds.length;
   const unreadIds = useMemo(() => {
     return notifications.filter((item) => item.isUnread).map((item) => item.id);
@@ -67,6 +74,9 @@ function PageActions() {
                   dispatch,
                   selectedNotificationIds
                 );
+                if (isSelectingAll) {
+                  resetNotificationsSize();
+                }
               } catch (error) {
                 message.error("Failed to delete notifications");
                 // send log to sentry here

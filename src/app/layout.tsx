@@ -4,8 +4,12 @@ import { Inter } from "next/font/google";
 import React from "react";
 import StyledComponentsRegistry from "../lib/AntdRegistry";
 import theme from "@/theme/themeConfig";
-import AppHeader from "./components/AppHeader";
+import dynamic from "next/dynamic";
+
 import "./globals.css";
+
+const AppHeader = dynamic(() => import("./components/AppHeader"));
+
 const inter = Inter({ subsets: ["latin"] });
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (

@@ -1,9 +1,12 @@
 "use client";
 
-import NotificationList from "./components/NotificationList";
-import PageActions from "./components/PageActions";
-import PageHeader from "./components/PageHeader";
+import dynamic from "next/dynamic";
+
 import { NotificationPageContextProvider } from "./state/context";
+
+const PageActions = dynamic(() => import("./components/PageActions"));
+const NotificationList = dynamic(() => import("./components/NotificationList"));
+const PageHeader = dynamic(() => import("./components/PageHeader"));
 
 function NotificationPage() {
   return (

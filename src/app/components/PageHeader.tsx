@@ -1,6 +1,6 @@
 import { useSWRNotifications } from "@/app/state/swr";
 import { Button, Space, Typography } from "antd";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import {
   deselectAllNotifications,
   selectAllNotifications,

@@ -52,7 +52,7 @@ function NotificationList() {
     }
   };
 
-  if (notificationItems.length === 0 && isLoading) {
+  if (notificationItems.length === 0 && (isLoading || isValidating)) {
     return (
       <Empty
         style={{

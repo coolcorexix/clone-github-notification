@@ -1,6 +1,6 @@
 import { useSWRNotifications } from "@/app/state/swr";
 import { Button, Space, Typography } from "antd";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo } from "react";
 import {
   deselectAllNotifications,
   selectAllNotifications,
@@ -20,15 +20,12 @@ function PageHeader() {
   const { mode, selectedNotificationIds } = state;
   const totalOfSelectedItems = selectedNotificationIds.length;
 
-  const [bulkSelectMode, setBulkSelectMode] = useState<"select" | "deselect">(
-    "select"
-  );
-
-  useEffect(() => {
-    if (!selectedNotificationIds.length) {
-      setBulkSelectMode("select");
-    }
-  }, [selectedNotificationIds.length]);
+  const isSelectingAll = useMemo(() => {
+    return (
+      notifications.length > 0 &&
+      selectedNotificationIds.length === notifications.length
+    );
+  }, [notifications.length, selectedNotificationIds]);
 
   useEffect(() => {
     if (!notifications.length) {
@@ -36,13 +33,6 @@ function PageHeader() {
     }
   }, [notifications.length]);
 
-  const toggleSelectMode = () => {
-    if (bulkSelectMode === "select") {
-      setBulkSelectMode("deselect");
-    } else {
-      setBulkSelectMode("select");
-    }
-  };
   return (
     <div>
       {mode === "readOnly" && (
@@ -75,25 +65,23 @@ function PageHeader() {
             >
               Cancel
             </Button>
-            {bulkSelectMode === "select" ? (
-              <Button
-                onClick={() => {
-                  selectAllNotifications(dispatch, loadedNotificationIds);
-                  toggleSelectMode();
-                }}
-                type="text"
-              >
-                Select all
-              </Button>
-            ) : (
+            {isSelectingAll ? (
               <Button
                 type="text"
                 onClick={() => {
                   deselectAllNotifications(dispatch);
-                  toggleSelectMode();
                 }}
               >
                 Deselect all
+              </Button>
+            ) : (
+              <Button
+                onClick={() => {
+                  selectAllNotifications(dispatch, loadedNotificationIds);
+                }}
+                type="text"
+              >
+                Select all
               </Button>
             )}
           </Space>

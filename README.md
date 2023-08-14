@@ -22,6 +22,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Highly-reusable cached responses. ✅
 - Robust list to handle large number of items (10,000 items and still keep FPS at 60). ✅
 - Unidirect data flow for page's stage management ✅
+- No shifting layout ✅
 
 ## Getting Started
 

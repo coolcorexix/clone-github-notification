@@ -99,7 +99,7 @@ function generateRandomIssueNoti() {
 
 let mockData = [];
 
-for (let i = 0; i < 200; i++) {
+for (let i = 0; i < 10000; i++) {
   mockData.push(generateRandomIssueNoti());
 }
 

@@ -15,6 +15,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Backend: GraphQL/Relay is preferred but not required. ⚠️
   - Note: I ended up using SWR / NextJs framework instead as data fetching management alternative.
 
+## Icing on the cake
+
+- Optimistic UI for marking as done/read/delete. ✅
+- Use TypeScript. ✅
+- SWR / NextJs framework for data fetching management. ✅
+- Robust list to handle large number of items (10,000 items and still keep FPS at 60). ✅
+- Reducer convention follow [The Tao Of Redux](https://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-1/) - this never goes out of fashin ✅
+
 ## Getting Started
 
 First, run the development server:

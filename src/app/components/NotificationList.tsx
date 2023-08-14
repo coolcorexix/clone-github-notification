@@ -24,6 +24,7 @@ function NotificationList() {
     loadMore,
     isLoading,
     isLoadingMore,
+    isValidating,
   } = useSWRNotifications();
 
   const dispatch = useNotificationPageDispatch();
@@ -65,7 +66,7 @@ function NotificationList() {
       />
     );
   }
-  if (notificationItems.length === 0 && !isLoading) {
+  if (notificationItems.length === 0 && !isLoading && !isValidating) {
     return (
       <Empty
         style={{
@@ -74,7 +75,7 @@ function NotificationList() {
         description={
           <Space direction="vertical" size="middle">
             <Typography.Text>It is so quiet here 🦗.</Typography.Text>
-            <Button onClick={restoreNotifications}>
+            <Button type="text" onClick={restoreNotifications}>
               Restore notifications
             </Button>
           </Space>

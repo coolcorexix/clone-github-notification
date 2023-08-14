@@ -25,5 +25,5 @@ export async function DELETE(req: Request) {
     const notificationsData = await getNotificationsData();
     const notifications = notificationsData.filter((notification: GitHnbNotification) => !notificationIds.includes(notification.id));
     setNotificationsData(notifications);
-    return NextResponse.json({ notifications })
+    return NextResponse.json({ notificationIds })
 }

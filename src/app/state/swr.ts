@@ -22,14 +22,28 @@ export function useSWRNotifications() {
     const notifications: GitHnbNotification[] = data ? data.flatMap((page) => page.notifications) : [];
     const isLoadingMore = (size > 0 && data && typeof data[size - 1] === "undefined");
     const deleteNotifications = async (notificationIds: number[]) => {
-        await fetcher(`/api/notifications?notificationIds`, {
+        const response = await fetcher(`/api/notifications`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({ notificationIds })
         });
-        mutate();
+
+        if (!data || !response) return;
+        const {
+            notificationIds: deletedNotificationIds
+        } = response;
+        mutate(
+            data.map((page) => ({
+                ...page,
+                notifications: page.notifications
+                    .filter((notification: GitHnbNotification) => !deletedNotificationIds.includes(notification.id))
+            })),
+            {
+                rollbackOnError: true,
+            }
+        );
     }
 
     const restoreNotifications = async () => {

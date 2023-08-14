@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Inter } from "next/font/google";
-import { ConfigProvider, Layout, theme } from "antd";
+import { ConfigProvider, Layout, Typography, theme } from "antd";
 import StyledComponentsRegistry from "../lib/AntdRegistry";
 import "./globals.css";
 import AppHeader from "./components/AppHeader";
@@ -22,6 +22,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
         >
           <AppHeader />
           {children}
+          <div className="pt-8" id=" footer ">
+            <Typography.Text className="w-full text-center  block">
+              Made with love by <a href="https://nemothecollector.dev/">Nemo</a>
+            </Typography.Text>
+          </div>
         </ConfigProvider>
       </StyledComponentsRegistry>
     </body>

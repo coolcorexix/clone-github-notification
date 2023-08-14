@@ -16,5 +16,5 @@ export async function PUT(req: Request) {
         return notification;
     });
     setNotificationsData(notifications);
-    return NextResponse.json({ notifications })
+    return NextResponse.json({ notificationIds, toBeUnread })
 }

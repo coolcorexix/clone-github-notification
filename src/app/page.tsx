@@ -1,15 +1,22 @@
-"use client"; // If used in Pages Router, is no need to add this line
+"use client";
 
-import React from "react";
-import { Button, Typography } from "antd";
+import NotificationList from "./components/NotificationList";
+import PageHeader from "./components/PageHeader";
+import { NotificationPageContextProvider } from "./state/context";
 
-const Home = () => (
-  <div className="App text-center p-4">
-    <Typography.Title>GitHnb Notification Management Clone</Typography.Title>
-    <Typography.Text>
-      Made with love by <a href="https://nemothecollector.dev/">Nemo</a>
-    </Typography.Text>
-  </div>
-);
+function NotificationPage() {
+  return (
+    <NotificationPageContextProvider>
+      <div className="max-w-screen-md w-100 m-auto py-2">
+        <div className="border-b-gray-700 border-b-2 pb-2">
+          <PageHeader />
+        </div>
+        <div className="p-4 max-w-screen-md m-auto">
+          <NotificationList />
+        </div>
+      </div>
+    </NotificationPageContextProvider>
+  );
+}
 
-export default Home;
+export default NotificationPage;

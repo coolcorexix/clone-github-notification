@@ -63,16 +63,15 @@ function PageHeader() {
       {mode === "readOnly" && (
         <Space direction="vertical">
           <Space>
-            {notifications.length > 0 && (
-              <Button
-                type="text"
-                onClick={() => {
-                  switchToEditMode(dispatch);
-                }}
-              >
-                Select
-              </Button>
-            )}
+            <Button
+              className={notifications.length > 0 ? "visible" : "invisible"}
+              type="text"
+              onClick={() => {
+                switchToEditMode(dispatch);
+              }}
+            >
+              Select
+            </Button>
           </Space>
           <Space className="ml-3">
             <Typography.Title level={2}>Inbox</Typography.Title>

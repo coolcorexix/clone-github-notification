@@ -2,14 +2,11 @@
 import { BellFillIcon, BellIcon, MarkGithubIcon } from "@primer/octicons-react";
 import { Badge, Space, Tooltip } from "antd";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useSWRNotifications } from "../state/swr";
 
 function AppHeader() {
-  const pathname = usePathname();
   const { notifications } = useSWRNotifications();
   const haveUnreadNotifications = notifications.some((item) => item.isUnread);
-  const isAtNotificationPage = pathname === "/notification";
 
   return (
     <div className="w-full border-b-gray-700 border-b-2">
@@ -28,11 +25,7 @@ function AppHeader() {
                 dot
                 count={haveUnreadNotifications ? 1 : 0}
               >
-                {isAtNotificationPage ? (
-                  <BellFillIcon fill="white" />
-                ) : (
-                  <BellIcon />
-                )}
+                <BellFillIcon fill="white" />
               </Badge>
             </Link>
           </Tooltip>

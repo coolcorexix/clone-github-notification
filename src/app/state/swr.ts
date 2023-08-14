@@ -1,5 +1,6 @@
 import { GitHnbNotification } from "@/types";
 import { fetcher } from "@/utils/fetcher";
+import { useSWRConfig } from "swr";
 import useSWRInfinite from "swr/infinite";
 
 const PAGE_SIZE = 20;
@@ -23,10 +24,18 @@ export function useSWRNotifications() {
     const loadMore = () => setSize(size + 1);
     const notifications: GitHnbNotification[] = data ? data.flatMap((page) => page.notifications) : [];
     const isLoadingMore = (size > 0 && data && typeof data[size - 1] === "undefined");
-    const resetNotificationsSize = () => {
+
+    const { mutate: globalMutate, cache } = useSWRConfig();
+
+    const refreshCache = async () => {
+        await Promise.all([...cache.keys()].map((key) => globalMutate(key, undefined, {
+            revalidate: false,
+        })));
+    };
+
+    const resetNotificationsSize = async () => {
+        refreshCache();
         setSize(1);
-        // perform a hard reset on the cache
-        mutate();
     };
     const deleteNotifications = async (notificationIds: number[]) => {
         const response = await fetcher(`/api/notifications`, {
@@ -49,6 +58,7 @@ export function useSWRNotifications() {
             })),
             {
                 rollbackOnError: true,
+                revalidate: false,
             }
         );
     }

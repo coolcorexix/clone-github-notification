@@ -17,7 +17,9 @@ const getKey = (
 };
 
 export function useSWRNotifications() {
-    const { data, size, setSize, isLoading, mutate, isValidating } = useSWRInfinite(getKey, fetcher);
+    const { data, size, setSize, isLoading, mutate, isValidating } = useSWRInfinite(getKey, fetcher, {
+        revalidateFirstPage: false,
+    });
     const loadMore = () => setSize(size + 1);
     const notifications: GitHnbNotification[] = data ? data.flatMap((page) => page.notifications) : [];
     const isLoadingMore = (size > 0 && data && typeof data[size - 1] === "undefined");
